@@ -1,0 +1,64 @@
+body{
+  font-family: arial;
+}
+.para
+{
+  margin-bottom: 0px;
+}
+.to-grid{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.to-grid,.main
+{
+  display: grid;
+  grid-template-columns: 200px 160px 100px;
+  column-gap: 10px;
+  row-gap: 10px;
+  margin-bottom: 5px;
+  
+}
+.hd,.main1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.main1{
+  font-size: 20px;
+  margin-top: 5%;
+  font-weight: bold;
+}
+.inp
+{
+  padding: 8px;
+  font-size: 17px;
+}
+.add
+{
+  background-color: green;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  border: none;
+  padding: 10px;
+}
+.dele
+{
+  background-color: rgb(159, 11, 11);
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  border: none;
+  padding: 10px;
+}
+.get
+{
+  font-size: 17px;
+}
+.check
+{
+  width: 17px;
+}
